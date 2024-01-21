@@ -1,0 +1,4 @@
+# Restricted Boltzmann Machine
+A Restricted Boltzmann Machine is a type of artificial neural network that falls under the category of generative models. It was introduced by Geoffrey Hinton and Terry Sejnowski in the 1980s. RBMs consist of two layers: visible units and hidden units. The units within each layer are fully connected, but there are no connections between units within the same layer.
+
+RBMs are called “restricted” because of the restrictions imposed on the connections between units. This restriction ensures that the visible units are only connected to the hidden units and vice versa, making RBMs a bipartite graph. This architectural constraint simplifies the training and inference procedures of RBMs.
